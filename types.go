@@ -310,6 +310,11 @@ type Container struct {
 	}
 }
 
+type Actor struct {
+	ID         string
+	Attributes map[string]string
+}
+
 type Event struct {
 	Status string `json:"status,omitempty"`
 	ID     string `json:"id,omitempty"`
